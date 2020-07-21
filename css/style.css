@@ -473,3 +473,41 @@ body {
     text-align: center;
     padding-top: 130px;
 }
+
+.box-subcribe {
+    height: 130px;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subcribe-title {
+    color: #928e9c;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subcribe input[type=text] {
+    width: 435px;
+    padding: 15px 0 15px 30px;
+    border: none;
+    border-radius: 25px;
+  }
+
+::placeholder {
+    color: #c8cbcf;
+    font-size: 14px;
+    font-family: Montserrat;
+}
+
+.subcribe button {
+    background: #8d81ac;
+    width: 140px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px 15px 30px;
+    color: #ffffff;
+    margin-left: 15px;
+}
